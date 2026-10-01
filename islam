@@ -1,0 +1,1150 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="th"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"inverse-on-surface":"#233148","tertiary-fixed-dim":"#ffb95f","on-secondary-fixed":"#001e31","border-subtle":"rgba(255, 255, 255, 0.08)","background":"#041329","on-tertiary":"#472a00","on-secondary":"#003350","secondary-fixed":"#cce5ff","primary-fixed-dim":"#ecc243","on-error":"#690005","surface-card-glass":"rgba(15, 42, 74, 0.65)","surface-dim":"#041329","gold-glow":"rgba(245, 158, 11, 0.25)","on-error-container":"#ffdad6","surface-card-hover":"rgba(20, 54, 94, 0.8)","error-container":"#93000a","primary":"#ffd55b","text-primary":"#F8FAFC","gold-bright":"#FCD34D","secondary-container":"#0f4b6f","on-tertiary-fixed-variant":"#653e00","on-secondary-container":"#8abae4","on-primary-container":"#5f4a00","gold-soft":"#FFF3B0","primary-container":"#e2b93b","on-surface":"#d6e3ff","text-arabic":"#E2B93B","surface-midnight":"#0A192F","inverse-primary":"#745b00","surface-variant":"#27354c","surface-bright":"#2c3951","on-tertiary-fixed":"#2a1700","outline-variant":"#4d4635","surface":"#041329","on-secondary-fixed-variant":"#0f4b6f","on-primary":"#3d2f00","text-muted":"#94A3B8","secondary":"#9bccf6","surface-container-lowest":"#010e24","on-primary-fixed":"#241a00","surface-tint":"#ecc243","surface-container":"#112036","on-background":"#d6e3ff","secondary-fixed-dim":"#9bccf6","surface-deep-teal":"#0F2A4A","border-glass":"rgba(226, 185, 59, 0.18)","on-tertiary-container":"#6d4300","tertiary":"#ffd19d","on-surface-variant":"#d1c5af","error":"#ffb4ab","outline":"#99907b","surface-container-low":"#0d1c32","active-prayer-bg":"rgba(226, 185, 59, 0.12)","primary-fixed":"#ffe08d","surface-container-high":"#1c2a41","inverse-surface":"#d6e3ff","tertiary-container":"#ffac36","on-primary-fixed-variant":"#584400","surface-container-highest":"#27354c","tertiary-fixed":"#ffddb8"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"margin":"2.5rem","space-lg":"1.5rem","space-md":"1rem","gutter":"1.5rem","space-sm":"0.5rem","space-xl":"2.5rem","space-xs":"0.25rem"},fontFamily:{"countdown-digits":["Plus Jakarta Sans"],"time-display":["Plus Jakarta Sans"],"title-prayer":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"caption":["Plus Jakarta Sans"],"display-hero":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"label-badge":["Plus Jakarta Sans"],"display-hero-mobile":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"arabic-title":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"]},fontSize:{"countdown-digits":["40px",{"lineHeight":"48px","letterSpacing":"0.01em","fontWeight":"700"}],"time-display":["22px",{"lineHeight":"28px","letterSpacing":"0.02em","fontWeight":"700"}],"title-prayer":["18px",{"lineHeight":"24px","fontWeight":"600"}],"headline-sm":["20px",{"lineHeight":"28px","fontWeight":"500"}],"caption":["11px",{"lineHeight":"16px","fontWeight":"400"}],"display-hero":["56px",{"lineHeight":"64px","letterSpacing":"-0.02em","fontWeight":"700"}],"body-sm":["12px",{"lineHeight":"16px","fontWeight":"400"}],"label-badge":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"600"}],"display-hero-mobile":["36px",{"lineHeight":"44px","letterSpacing":"-0.01em","fontWeight":"700"}],"body-md":["14px",{"lineHeight":"20px","fontWeight":"400"}],"body-lg":["16px",{"lineHeight":"24px","fontWeight":"400"}],"arabic-title":["17px",{"lineHeight":"24px","fontWeight":"400"}],"headline-lg":["32px",{"lineHeight":"40px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-md":["24px",{"lineHeight":"32px","fontWeight":"600"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container min-h-screen flex flex-col justify-between"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 w-full max-w-[1440px] mx-auto px-gutter lg:px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><div class="flex items-center gap-space-sm"><div class="w-10 h-10 rounded-xl bg-surface-container flex items-center justify-center text-primary shadow-[0_0_16px_rgba(245,158,11,0.15)]"><span class="material-symbols-outlined text-[24px]">mosque</span></div><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight leading-tight">เวลาละหมาด <span class="text-primary text-body-sm font-label-badge">&amp; รอมฎอน</span></span><span class="font-caption text-caption text-on-surface-variant">Hub ละหมาดและการอิบาดะฮ์</span></div></div><div class="hidden xl:flex items-center gap-space-xs bg-surface-container-low px-space-md py-1.5 rounded-full"><span class="material-symbols-outlined text-primary text-[18px]">location_on</span><span class="font-body-sm text-body-sm text-on-surface">ตำแหน่งฉัน:</span><button class="flex items-center gap-1 font-label-badge text-label-badge text-primary hover:text-gold-bright transition-colors" type="button"><span>กรุงเทพมหานคร (อัตโนมัติ)</span><span class="material-symbols-outlined text-[16px]">expand_more</span></button></div></div><nav class="hidden lg:flex items-center gap-space-xs bg-surface-container-low/70 p-1 rounded-xl" data-active-classes="bg-surface-container-high text-primary font-bold rounded-lg"><a aria-current="page" class="px-space-md py-2 transition-all bg-surface-container-high text-primary font-bold rounded-lg" data-path="dashboard" href="#">ตารางเวลา</a><a class="px-space-md py-2 rounded-lg font-body-md text-body-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all" data-path="ramadan-tracker" href="#">รอมฎอน &amp; ถือศีลอด</a><a class="px-space-md py-2 rounded-lg font-body-md text-body-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all" data-path="quran-worship" href="#">อัลกุรอาน &amp; ดิกิร</a><a class="px-space-md py-2 rounded-lg font-body-md text-body-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all" data-path="qibla-compass" href="#">เข็มทิศกิบลัต</a><a class="px-space-md py-2 rounded-lg font-body-md text-body-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all" data-path="prayer-stats" href="#">สถิติละหมาด</a></nav><div class="flex items-center gap-space-sm"><button aria-label="การแจ้งเตือนเสียงอาซาน" class="w-10 h-10 rounded-xl bg-surface-container-low hover:bg-surface-container-high text-on-surface-variant hover:text-primary flex items-center justify-center transition-colors relative" type="button"><span class="material-symbols-outlined text-[20px]">volume_up</span><span class="w-2 h-2 rounded-full bg-primary absolute top-2.5 right-2.5"></span></button><button aria-label="สลับโหมดการแสดงผล" class="w-10 h-10 rounded-xl bg-surface-container-low hover:bg-surface-container-high text-on-surface-variant hover:text-on-surface flex items-center justify-center transition-colors" type="button"><span class="material-symbols-outlined text-[20px]">dark_mode</span></button><a aria-label="การตั้งค่าการคำนวณ" class="w-10 h-10 rounded-xl bg-surface-container-low hover:bg-surface-container-high text-on-surface-variant hover:text-on-surface flex items-center justify-center transition-colors" data-path="settings" href="#"><span class="material-symbols-outlined text-[20px]">settings</span></a><div class="h-6 w-px bg-surface-variant mx-1 hidden sm:block"></div><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface flex-1"><div class="flex flex-col w-full">
+<!-- Top Ambient Glow Aura -->
+<div class="relative w-full max-w-[1440px] mx-auto px-gutter lg:px-margin pt-space-md pb-space-xl">
+<!-- Background Radiant Canvas Elements (Contained) -->
+<div class="absolute top-12 left-1/2 -translate-x-1/2 w-[720px] h-[360px] bg-gradient-to-b from-primary/10 via-secondary-container/10 to-transparent blur-3xl pointer-events-none -z-10 rounded-full"></div>
+<div class="absolute top-64 right-10 w-[300px] h-[300px] bg-primary-fixed/5 blur-[90px] pointer-events-none -z-10 rounded-full"></div>
+<!-- 1. HERO CELESTIAL SUN ARC & NEXT PRAYER SPOTLIGHT -->
+<section class="w-full mb-space-lg">
+<div class="relative w-full rounded-2xl bg-surface-container-low/70 backdrop-blur-xl p-space-md lg:p-space-lg shadow-2xl overflow-hidden">
+<!-- Subtle golden top glow sheen -->
+<div class="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-primary/40 to-transparent"></div>
+<!-- Upper Banner: Hijri & Gregorian Dates with Live Clock & Quick Status -->
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-space-sm pb-space-md">
+<div class="flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-xl bg-surface-container-high/80 flex items-center justify-center text-primary shadow-inner">
+<span class="material-symbols-outlined text-[28px]" style="font-variation-settings: 'FILL' 1;">wb_twilight</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm text-on-surface">วันพฤหัสบดีที่ 24 ตุลาคม 2567</span>
+<span class="font-caption text-caption px-2 py-0.5 rounded-full bg-secondary-container text-secondary">กรุงเทพมหานคร</span>
+</div>
+<span class="font-body-sm text-body-sm text-primary font-medium tracking-wide">21 รอบีอุษษานี ฮ.ศ. 1446 • Rabi' al-Thani 1446</span>
+</div>
+</div>
+<!-- Live Digital Clock Badge -->
+<div class="flex items-center gap-space-sm self-start md:self-auto bg-surface-container-lowest/80 px-space-md py-2 rounded-xl">
+<span class="w-2.5 h-2.5 rounded-full bg-primary animate-ping"></span>
+<span class="font-caption text-caption text-on-surface-variant uppercase tracking-wider">เวลาปัจจุบัน</span>
+<span class="font-headline-md text-headline-md text-primary font-bold tracking-tight" id="live-clock">14:42:08</span>
+</div>
+</div>
+<!-- Celestial Trajectory Arc Visualization -->
+<div class="relative w-full py-2 my-2 flex flex-col items-center justify-center">
+<div class="w-full max-w-[880px] h-[160px] md:h-[190px] relative flex items-end justify-center">
+<!-- SVG Arc Path -->
+<svg class="w-full h-full overflow-visible" fill="none" preserveaspectratio="xMidYMax meet" viewbox="0 0 800 240">
+<defs>
+<lineargradient id="arcGlow" x1="0%" x2="100%" y1="100%" y2="100%">
+<stop offset="0%" stop-color="#0F4B6F" stop-opacity="0.3"></stop>
+<stop offset="35%" stop-color="#FFD55B" stop-opacity="0.8"></stop>
+<stop offset="65%" stop-color="#ECC243" stop-opacity="0.9"></stop>
+<stop offset="100%" stop-color="#0F4B6F" stop-opacity="0.3"></stop>
+</lineargradient>
+<radialgradient cx="50%" cy="50%" id="sunGlow" r="50%">
+<stop offset="0%" stop-color="#FFD55B" stop-opacity="1"></stop>
+<stop offset="40%" stop-color="#ECC243" stop-opacity="0.6"></stop>
+<stop offset="100%" stop-color="#ECC243" stop-opacity="0"></stop>
+</radialgradient>
+</defs>
+<!-- Base background trajectory dashed curve -->
+<path d="M 60 210 Q 400 -20 740 210" fill="none" stroke="rgba(255,255,255,0.08)" stroke-dasharray="6 6" stroke-width="3"></path>
+<!-- Active daytime luminous progression curve -->
+<path d="M 60 210 Q 400 -20 740 210" fill="none" stroke="url(#arcGlow)" stroke-linecap="round" stroke-width="4"></path>
+<!-- Ground Horizon line -->
+<line stroke="rgba(255,255,255,0.12)" stroke-dasharray="4 4" stroke-width="1.5" x1="20" x2="780" y1="210" y2="210"></line>
+<!-- Prayer Markers on Curve -->
+<!-- 1. Fajr (Dawn) -->
+<g transform="translate(90, 185)">
+<circle cx="0" cy="0" fill="#8ABAE4" r="5"></circle>
+<text fill="#8ABAE4" font-size="11" font-weight="600" text-anchor="middle" x="0" y="22">ซุบฮิ 05:02</text>
+</g>
+<!-- 2. Sunrise -->
+<g transform="translate(190, 115)">
+<circle cx="0" cy="0" fill="#94A3B8" r="4"></circle>
+<text fill="#94A3B8" font-size="10" text-anchor="middle" x="0" y="20">ชุรูก 06:15</text>
+</g>
+<!-- 3. Dhuhr (Midday) -->
+<g transform="translate(400, 38)">
+<circle cx="0" cy="0" fill="#FFD55B" r="6"></circle>
+<text fill="#FFD55B" font-size="12" font-weight="700" text-anchor="middle" x="0" y="-12">ซุฮรี 12:12</text>
+</g>
+<!-- 4. Asr - Sun Currently Here (Active Indicator) -->
+<g transform="translate(560, 95)">
+<!-- Ambient Pulsing Halo around Sun -->
+<circle class="animate-pulse" cx="0" cy="0" fill="url(#sunGlow)" r="26"></circle>
+<circle cx="0" cy="0" fill="#FFD55B" r="10"></circle>
+<!-- Sun rays icon -->
+<path d="M-15 0 L-18 0 M15 0 L18 0 M0 -15 L0 -18 M0 15 L0 18 M-10 -10 L-13 -13 M10 10 L13 13 M-10 10 L-13 13 M10 -10 L13 -13" stroke="#FFD55B" stroke-linecap="round" stroke-width="2"></path>
+<text fill="#FFD55B" font-size="12" font-weight="700" text-anchor="middle" x="0" y="28">อัสรี 15:28 (ถัดไป)</text>
+</g>
+<!-- 5. Maghrib (Sunset) -->
+<g transform="translate(710, 185)">
+<circle cx="0" cy="0" fill="#FFB95F" r="5"></circle>
+<text fill="#FFB95F" font-size="11" font-weight="600" text-anchor="middle" x="0" y="22">มัฆริบ 18:08</text>
+</g>
+</svg>
+</div>
+</div>
+<!-- Next Prayer Spotlight & Hero Countdown -->
+<div class="mt-2 grid grid-cols-1 lg:grid-cols-12 gap-space-md items-center bg-surface-container/60 rounded-xl p-space-md">
+<!-- Column A: Next Prayer Info -->
+<div class="lg:col-span-4 flex items-center gap-space-md">
+<div class="w-14 h-14 rounded-2xl bg-primary/20 text-primary flex items-center justify-center shadow-lg shadow-gold-glow">
+<span class="material-symbols-outlined text-[32px]">sunny</span>
+</div>
+<div>
+<div class="flex items-center gap-2">
+<span class="font-caption text-caption uppercase tracking-wider text-on-surface-variant">ละหมาดถัดไป</span>
+<span class="font-label-badge text-label-badge bg-primary text-on-primary px-2 py-0.5 rounded-full">ถัดไป</span>
+</div>
+<div class="flex items-baseline gap-2 mt-0.5">
+<h2 class="font-headline-lg text-headline-lg text-primary font-bold">อัสรี</h2>
+<span class="font-arabic-title text-arabic-title text-text-arabic font-normal">العصر</span>
+<span class="font-title-prayer text-title-prayer text-on-surface font-semibold ml-1">15:28 น.</span>
+</div>
+<p class="font-caption text-caption text-on-surface-variant">ฟัรฎู 4 รอกาอัต • อีกประมาณ 45 นาที</p>
+</div>
+</div>
+<!-- Column B: Tabular Live Countdown -->
+<div class="lg:col-span-5 flex flex-col items-start lg:items-center justify-center">
+<span class="font-caption text-caption text-on-surface-variant uppercase tracking-wider mb-1">นับถอยหลังสู่อาซาน</span>
+<div class="flex items-baseline gap-2">
+<div class="flex flex-col items-center bg-surface-container-lowest px-3 py-1.5 rounded-lg shadow-sm">
+<span class="font-countdown-digits text-countdown-digits text-text-primary tracking-tight" id="timer-hours">00</span>
+<span class="font-caption text-caption text-primary">ชั่วโมง</span>
+</div>
+<span class="font-countdown-digits text-countdown-digits text-primary/60 -mt-2">:</span>
+<div class="flex flex-col items-center bg-surface-container-lowest px-3 py-1.5 rounded-lg shadow-sm">
+<span class="font-countdown-digits text-countdown-digits text-text-primary tracking-tight" id="timer-mins">45</span>
+<span class="font-caption text-caption text-primary">นาที</span>
+</div>
+<span class="font-countdown-digits text-countdown-digits text-primary/60 -mt-2">:</span>
+<div class="flex flex-col items-center bg-surface-container-lowest px-3 py-1.5 rounded-lg shadow-sm">
+<span class="font-countdown-digits text-countdown-digits text-primary tracking-tight" id="timer-secs">52</span>
+<span class="font-caption text-caption text-primary">วินาที</span>
+</div>
+</div>
+</div>
+<!-- Column C: Action & Notification Toggle -->
+<div class="lg:col-span-3 flex items-center justify-start lg:justify-end gap-space-sm">
+<button class="flex items-center gap-2 px-space-md py-2.5 rounded-xl bg-surface-container-high hover:bg-surface-bright text-on-surface hover:text-primary transition-all shadow-sm" id="btn-sound-toggle" type="button">
+<span class="material-symbols-outlined text-[20px] text-primary">notifications_active</span>
+<span class="font-label-badge text-label-badge">เปิดเสียงเตือน</span>
+</button>
+<button class="flex items-center gap-1.5 px-space-md py-2.5 rounded-xl bg-primary text-on-primary hover:bg-gold-bright transition-all shadow-md font-semibold" onclick="document.getElementById('modal-monthly').classList.remove('hidden')" type="button">
+<span class="material-symbols-outlined text-[18px]">calendar_month</span>
+<span class="font-label-badge text-label-badge">ตารางเดือน</span>
+</button>
+</div>
+</div>
+<!-- Ramadan Special Countdown Strip -->
+<div class="mt-space-md pt-space-sm flex flex-col md:flex-row md:items-center justify-between gap-space-sm bg-gradient-to-r from-secondary-container/50 via-surface-container-high/40 to-secondary-container/50 rounded-xl px-space-md py-3 shadow-inner">
+<div class="flex items-center gap-space-sm">
+<div class="w-9 h-9 rounded-lg bg-tertiary-container/20 text-tertiary flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">bedtime</span>
+</div>
+<div>
+<div class="flex items-center gap-2">
+<span class="font-title-prayer text-title-prayer text-on-surface font-semibold">ถึงเดือนรอมฎอนอีก</span>
+<span class="font-countdown-digits text-[22px] leading-tight text-primary font-bold">129 วัน 09:22:16</span>
+</div>
+<p class="font-caption text-caption text-on-surface-variant">ประมาณ 1 มีนาคม 2568 • วันจริงขึ้นอยู่กับการดูดวงจันทร์สำนักจุฬาราชมนตรี</p>
+</div>
+</div>
+<div class="flex items-center gap-space-md">
+<div class="hidden sm:flex flex-col items-end">
+<span class="font-caption text-caption text-secondary">เตรียมความพร้อมศีลอด</span>
+<span class="font-body-sm text-body-sm text-on-surface font-medium">สุนนะฮฺ จันทร์ - พฤหัสบดี</span>
+</div>
+<button class="px-space-md py-1.5 rounded-lg bg-surface-container-highest hover:bg-primary hover:text-on-primary text-on-surface text-label-badge font-label-badge transition-colors flex items-center gap-1" onclick="document.getElementById('modal-hijri').classList.remove('hidden')" type="button">
+<span>ดูปฏิทินฮิจเราะห์</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- 2. MAIN DASHBOARD SPLIT GRID (7 Cols Left / 5 Cols Right) -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-start">
+<!-- LEFT 7 COLUMNS: Daily Prayer Times + Prophetic Sunnah Breakdown -->
+<div class="lg:col-span-7 flex flex-col gap-space-lg">
+<!-- PRAYER TIMETABLE CARDS -->
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between px-1">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">schedule</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">เวลาละหมาดวันนี้</h3>
+</div>
+<span class="font-caption text-caption text-on-surface-variant">แตะวงกลมเพื่อบันทึกสถิติละหมาดเสร็จแล้ว</span>
+</div>
+<!-- Prayer Row 1: Fajr -->
+<div class="prayer-card group flex items-center justify-between p-space-md rounded-xl bg-surface-card-glass hover:bg-surface-card-hover backdrop-blur-md transition-all shadow-md">
+<div class="flex items-center gap-space-md">
+<button class="prayer-check-btn w-6 h-6 rounded-full bg-surface-container-high hover:bg-primary-container text-transparent hover:text-on-primary flex items-center justify-center transition-all" onclick="togglePrayerCheck(this, 'ซุบฮิ')" title="ติ๊กเพื่อบันทึก" type="button">
+<span class="material-symbols-outlined text-[16px] prayer-check-icon">check</span>
+</button>
+<div class="w-10 h-10 rounded-lg bg-secondary-container/40 text-secondary flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]">brightness_3</span>
+</div>
+<div>
+<div class="flex items-baseline gap-2">
+<span class="font-title-prayer text-title-prayer text-on-surface font-bold">ซุบฮิ</span>
+<span class="font-arabic-title text-arabic-title text-text-arabic">الفجر</span>
+</div>
+<span class="font-caption text-caption text-on-surface-variant">2 รอกาอัต (ฟัรฎู) • มีสุนนะฮฺก่อน 2</span>
+</div>
+</div>
+<div class="flex items-center gap-space-md">
+<span class="font-time-display text-time-display text-on-surface font-bold tracking-tight">05:02</span>
+<span class="font-caption text-caption px-2 py-1 rounded bg-surface-container text-on-surface-variant">ผ่านแล้ว</span>
+</div>
+</div>
+<!-- Prayer Row 2: Sunrise (Shuruq) -->
+<div class="prayer-card flex items-center justify-between p-space-md rounded-xl bg-surface-container-lowest/60 backdrop-blur-sm opacity-85 transition-all">
+<div class="flex items-center gap-space-md">
+<div class="w-6 h-6 flex items-center justify-center text-on-surface-variant/40">
+<span class="material-symbols-outlined text-[16px]">remove</span>
+</div>
+<div class="w-10 h-10 rounded-lg bg-surface-container text-on-surface-variant flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]">wb_twilight</span>
+</div>
+<div>
+<div class="flex items-baseline gap-2">
+<span class="font-title-prayer text-title-prayer text-on-surface-variant font-medium">ดวงอาทิตย์ขึ้น (ชุรูก)</span>
+<span class="font-arabic-title text-arabic-title text-on-surface-variant/80">الشروق</span>
+</div>
+<span class="font-caption text-caption text-on-surface-variant/80">หมดเวลาซุบฮิ • เริ่มเวลาละหมาดฎุฮาได้</span>
+</div>
+</div>
+<div class="flex items-center gap-space-md">
+<span class="font-time-display text-time-display text-on-surface-variant font-medium">06:15</span>
+<span class="font-caption text-caption px-2 py-1 rounded bg-surface-container-low text-on-surface-variant/70">แดดเริ่มส่อง</span>
+</div>
+</div>
+<!-- Prayer Row 3: Dhuhr -->
+<div class="prayer-card flex items-center justify-between p-space-md rounded-xl bg-surface-card-glass hover:bg-surface-card-hover backdrop-blur-md transition-all shadow-md">
+<div class="flex items-center gap-space-md">
+<button class="prayer-check-btn w-6 h-6 rounded-full bg-primary text-on-primary flex items-center justify-center shadow-sm" onclick="togglePrayerCheck(this, 'ซุฮรี')" title="บันทึกแล้ว" type="button">
+<span class="material-symbols-outlined text-[16px] prayer-check-icon">check</span>
+</button>
+<div class="w-10 h-10 rounded-lg bg-secondary-container/40 text-secondary flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]">light_mode</span>
+</div>
+<div>
+<div class="flex items-baseline gap-2">
+<span class="font-title-prayer text-title-prayer text-on-surface font-bold">ซุฮรี</span>
+<span class="font-arabic-title text-arabic-title text-text-arabic">الظهر</span>
+</div>
+<span class="font-caption text-caption text-on-surface-variant">4 รอกาอัต • ก่อน 2 หลัง 2 (เราะวาติบ)</span>
+</div>
+</div>
+<div class="flex items-center gap-space-md">
+<span class="font-time-display text-time-display text-on-surface font-bold tracking-tight">12:12</span>
+<span class="font-caption text-caption px-2 py-1 rounded bg-surface-container-high text-primary font-medium">บันทึกแล้ว</span>
+</div>
+</div>
+<!-- Prayer Row 4: Asr (ACTIVE STATE FOCUS) -->
+<div class="prayer-card flex items-center justify-between p-space-md rounded-xl bg-active-prayer-bg backdrop-blur-md shadow-xl relative overflow-hidden">
+<div class="absolute inset-y-0 left-0 w-1.5 bg-primary"></div>
+<div class="flex items-center gap-space-md pl-1">
+<button class="prayer-check-btn w-6 h-6 rounded-full bg-surface-container-high hover:bg-primary-container text-transparent hover:text-on-primary flex items-center justify-center transition-all" onclick="togglePrayerCheck(this, 'อัสรี')" title="ติ๊กเพื่อบันทึก" type="button">
+<span class="material-symbols-outlined text-[16px] prayer-check-icon">check</span>
+</button>
+<div class="w-10 h-10 rounded-lg bg-primary/20 text-primary flex items-center justify-center shadow-[0_0_12px_rgba(245,158,11,0.25)]">
+<span class="material-symbols-outlined text-[20px]">sunny</span>
+</div>
+<div>
+<div class="flex items-center gap-2">
+<span class="font-title-prayer text-title-prayer text-primary font-bold">อัสรี</span>
+<span class="font-arabic-title text-arabic-title text-gold-bright">العصر</span>
+<span class="font-label-badge text-label-badge bg-gold-soft text-surface-midnight px-2 py-0.5 rounded-full font-bold">ถัดไป</span>
+</div>
+<span class="font-caption text-caption text-primary/80">4 รอกาอัต • ซุนนะฮฺส่งเสริม 4 รอกาอัตก่อนเวลา</span>
+</div>
+</div>
+<div class="flex items-center gap-space-md">
+<span class="font-time-display text-time-display text-primary font-bold tracking-tight">15:28</span>
+<span class="font-caption text-caption px-2.5 py-1 rounded-full bg-primary/20 text-primary font-bold animate-pulse">ในอีก 45 น.</span>
+</div>
+</div>
+<!-- Prayer Row 5: Maghrib -->
+<div class="prayer-card flex items-center justify-between p-space-md rounded-xl bg-surface-card-glass hover:bg-surface-card-hover backdrop-blur-md transition-all shadow-md">
+<div class="flex items-center gap-space-md">
+<button class="prayer-check-btn w-6 h-6 rounded-full bg-surface-container-high hover:bg-primary-container text-transparent hover:text-on-primary flex items-center justify-center transition-all" onclick="togglePrayerCheck(this, 'มัฆริบ')" title="ติ๊กเพื่อบันทึก" type="button">
+<span class="material-symbols-outlined text-[16px] prayer-check-icon">check</span>
+</button>
+<div class="w-10 h-10 rounded-lg bg-secondary-container/40 text-secondary flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]">nights_stay</span>
+</div>
+<div>
+<div class="flex items-baseline gap-2">
+<span class="font-title-prayer text-title-prayer text-on-surface font-bold">มัฆริบ</span>
+<span class="font-arabic-title text-arabic-title text-text-arabic">المغرب</span>
+</div>
+<span class="font-caption text-caption text-on-surface-variant">3 รอกาอัต • เวลาละศีลอด • ซุนนะฮฺหลัง 2</span>
+</div>
+</div>
+<div class="flex items-center gap-space-md">
+<span class="font-time-display text-time-display text-on-surface font-bold tracking-tight">18:08</span>
+<span class="font-caption text-caption px-2 py-1 rounded bg-surface-container text-on-surface-variant">ค่ำนี้</span>
+</div>
+</div>
+<!-- Prayer Row 6: Isha -->
+<div class="prayer-card flex items-center justify-between p-space-md rounded-xl bg-surface-card-glass hover:bg-surface-card-hover backdrop-blur-md transition-all shadow-md">
+<div class="flex items-center gap-space-md">
+<button class="prayer-check-btn w-6 h-6 rounded-full bg-surface-container-high hover:bg-primary-container text-transparent hover:text-on-primary flex items-center justify-center transition-all" onclick="togglePrayerCheck(this, 'อีซา')" title="ติ๊กเพื่อบันทึก" type="button">
+<span class="material-symbols-outlined text-[16px] prayer-check-icon">check</span>
+</button>
+<div class="w-10 h-10 rounded-lg bg-secondary-container/40 text-secondary flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]">dark_mode</span>
+</div>
+<div>
+<div class="flex items-baseline gap-2">
+<span class="font-title-prayer text-title-prayer text-on-surface font-bold">อีซา</span>
+<span class="font-arabic-title text-arabic-title text-text-arabic">العشاء</span>
+</div>
+<span class="font-caption text-caption text-on-surface-variant">4 รอกาอัต • สุนนะฮฺหลัง 2 • ตามด้วยวิตรฺ 1-3</span>
+</div>
+</div>
+<div class="flex items-center gap-space-md">
+<span class="font-time-display text-time-display text-on-surface font-bold tracking-tight">19:15</span>
+<span class="font-caption text-caption px-2 py-1 rounded bg-surface-container text-on-surface-variant">คืนนี้</span>
+</div>
+</div>
+</div>
+<!-- Prophetic Sunnah Rawatib Quick Reference Table -->
+<div class="rounded-2xl bg-surface-container-low p-space-md shadow-lg">
+<div class="flex items-center justify-between pb-space-sm mb-space-sm">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">menu_book</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-semibold">ซุนนะฮฺคู่กับละหมาดฟัรฎู (เราะวาติบ)</h4>
+</div>
+<span class="font-caption text-caption text-on-surface-variant">มัซฮับชาฟิอี 10-12 รอกาอัต</span>
+</div>
+<div class="overflow-x-auto">
+<table class="w-full text-left font-body-sm text-body-sm">
+<thead>
+<tr class="bg-surface-container-high/60 text-on-surface-variant">
+<th class="py-2 px-space-md font-label-badge rounded-l-lg">เวลาละหมาด</th>
+<th class="py-2 px-space-md font-label-badge text-center">ก่อน (ก่อนเข้าฟัรฎู)</th>
+<th class="py-2 px-space-md font-label-badge text-center">หลัง (หลังเสร็จฟัรฎู)</th>
+<th class="py-2 px-space-md font-label-badge rounded-r-lg">ระดับการส่งเสริม</th>
+</tr>
+</thead>
+<tbody class="text-on-surface">
+<tr class="hover:bg-surface-container-high/30 transition-colors">
+<td class="py-2.5 px-space-md font-medium text-primary">ซุบฮิ</td>
+<td class="py-2.5 px-space-md text-center font-bold">2 รอกาอัต</td>
+<td class="py-2.5 px-space-md text-center text-on-surface-variant">-</td>
+<td class="py-2.5 px-space-md text-on-surface-variant text-caption">เน้นย้ำที่สุด (มุอักกะดะฮ์)</td>
+</tr>
+<tr class="hover:bg-surface-container-high/30 transition-colors">
+<td class="py-2.5 px-space-md font-medium text-primary">ซุฮรี</td>
+<td class="py-2.5 px-space-md text-center">2 หรือ 4</td>
+<td class="py-2.5 px-space-md text-center">2 รอกาอัต</td>
+<td class="py-2.5 px-space-md text-on-surface-variant text-caption">เน้นย้ำ 2+2</td>
+</tr>
+<tr class="hover:bg-surface-container-high/30 transition-colors">
+<td class="py-2.5 px-space-md font-medium text-primary">อัสรี</td>
+<td class="py-2.5 px-space-md text-center text-secondary">4* รอกาอัต</td>
+<td class="py-2.5 px-space-md text-center text-on-surface-variant">-</td>
+<td class="py-2.5 px-space-md text-on-surface-variant text-caption">*ส่งเสริมแต่ไม่เน้นย้ำ</td>
+</tr>
+<tr class="hover:bg-surface-container-high/30 transition-colors">
+<td class="py-2.5 px-space-md font-medium text-primary">มัฆริบ</td>
+<td class="py-2.5 px-space-md text-center text-secondary">2* รอกาอัต</td>
+<td class="py-2.5 px-space-md text-center">2 รอกาอัต</td>
+<td class="py-2.5 px-space-md text-on-surface-variant text-caption">เน้นย้ำหลัง 2 รอกาอัต</td>
+</tr>
+<tr class="hover:bg-surface-container-high/30 transition-colors">
+<td class="py-2.5 px-space-md font-medium text-primary">อีซา</td>
+<td class="py-2.5 px-space-md text-center text-on-surface-variant">-</td>
+<td class="py-2.5 px-space-md text-center">2 รอกาอัต</td>
+<td class="py-2.5 px-space-md text-on-surface-variant text-caption">เน้นย้ำหลัง 2 + วิฏรฺ 1-3</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="font-caption text-caption text-on-surface-variant mt-space-sm">
+            ตัวเลขเป็นจำนวนรอกาอัต เครื่องหมาย * คือซุนนะฮฺที่ส่งเสริมแต่ไม่เน้นย้ำ ท่านนบีรักษาสองรอกาอัตก่อนซุบฮิอย่างสม่ำเสมอกว่าละหมาดสุนนะฮฺอื่น
+          </p>
+</div>
+</div>
+<!-- RIGHT 5 COLUMNS: Worship Utilities, Interactive Tasbih & Qibla Compass -->
+<div class="lg:col-span-5 flex flex-col gap-space-lg">
+<!-- QUICK ACTION ACTION TILES GRID (2x5 Clean Tile Layout) -->
+<div>
+<div class="flex items-center justify-between mb-space-sm px-1">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">ฟังก์ชันอิบาดะฮ์</h3>
+<span class="font-caption text-caption text-primary">เครื่องมือด่วน</span>
+</div>
+<div class="grid grid-cols-2 gap-space-sm">
+<!-- 1. Quran -->
+<button class="group p-space-md rounded-xl bg-surface-card-glass hover:bg-surface-card-hover backdrop-blur-md transition-all shadow-md flex items-center gap-space-sm text-left" onclick="document.getElementById('modal-quran').classList.remove('hidden')" type="button">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high group-hover:bg-primary/20 text-primary flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-[22px]">auto_stories</span>
+</div>
+<div class="min-w-0">
+<span class="font-title-prayer text-[15px] font-semibold text-on-surface block truncate">อ่านอัลกุรอาน</span>
+<span class="font-caption text-caption text-on-surface-variant">พร้อมแปลไทย</span>
+</div>
+</button>
+<!-- 2. Sunnah Guide -->
+<button class="group p-space-md rounded-xl bg-surface-card-glass hover:bg-surface-card-hover backdrop-blur-md transition-all shadow-md flex items-center gap-space-sm text-left" onclick="document.getElementById('modal-sunnah').classList.remove('hidden')" type="button">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high group-hover:bg-primary/20 text-primary flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-[22px]">bookmark_heart</span>
+</div>
+<div class="min-w-0">
+<span class="font-title-prayer text-[15px] font-semibold text-on-surface block truncate">ซุนนะฮฺของท่านนบี</span>
+<span class="font-caption text-caption text-on-surface-variant">วิถีปฏิบัติ &amp; ดุอาอ์</span>
+</div>
+</button>
+<!-- 3. Post Prayer Dhikr -->
+<button class="group p-space-md rounded-xl bg-surface-card-glass hover:bg-surface-card-hover backdrop-blur-md transition-all shadow-md flex items-center gap-space-sm text-left" onclick="document.getElementById('modal-post-dhikr').classList.remove('hidden')" type="button">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high group-hover:bg-primary/20 text-primary flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-[22px]">fingerprint</span>
+</div>
+<div class="min-w-0">
+<span class="font-title-prayer text-[15px] font-semibold text-on-surface block truncate">ซิกรฺหลังละหมาด</span>
+<span class="font-caption text-caption text-on-surface-variant">33-33-34 อัตโนมัติ</span>
+</div>
+</button>
+<!-- 4. Free Tasbih Counter -->
+<button class="group p-space-md rounded-xl bg-surface-card-glass hover:bg-surface-card-hover backdrop-blur-md transition-all shadow-md flex items-center gap-space-sm text-left" onclick="document.getElementById('modal-tasbih').classList.remove('hidden')" type="button">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high group-hover:bg-primary/20 text-primary flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-[22px]">counter_3</span>
+</div>
+<div class="min-w-0">
+<span class="font-title-prayer text-[15px] font-semibold text-on-surface block truncate">นับซิกรฺอิสระ</span>
+<span class="font-caption text-caption text-on-surface-variant">ตัสบีหฺดิจิทัล</span>
+</div>
+</button>
+<!-- 5. Qibla Compass -->
+<button class="group p-space-md rounded-xl bg-surface-card-glass hover:bg-surface-card-hover backdrop-blur-md transition-all shadow-md flex items-center gap-space-sm text-left" onclick="document.getElementById('modal-qibla').classList.remove('hidden')" type="button">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high group-hover:bg-primary/20 text-primary flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-[22px]">explore</span>
+</div>
+<div class="min-w-0">
+<span class="font-title-prayer text-[15px] font-semibold text-on-surface block truncate">เข็มทิศกิบลัต</span>
+<span class="font-caption text-caption text-on-surface-variant">ทิศ 285° (กะอฺบะฮฺ)</span>
+</div>
+</button>
+<!-- 6. Hijri Calendar -->
+<button class="group p-space-md rounded-xl bg-surface-card-glass hover:bg-surface-card-hover backdrop-blur-md transition-all shadow-md flex items-center gap-space-sm text-left" onclick="document.getElementById('modal-hijri').classList.remove('hidden')" type="button">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high group-hover:bg-primary/20 text-primary flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-[22px]">event_note</span>
+</div>
+<div class="min-w-0">
+<span class="font-title-prayer text-[15px] font-semibold text-on-surface block truncate">ปฏิทินฮิจเราะห์</span>
+<span class="font-caption text-caption text-on-surface-variant">วันขาว (13-15)</span>
+</div>
+</button>
+<!-- 7. Monthly Timetable -->
+<button class="group p-space-md rounded-xl bg-surface-card-glass hover:bg-surface-card-hover backdrop-blur-md transition-all shadow-md flex items-center gap-space-sm text-left" onclick="document.getElementById('modal-monthly').classList.remove('hidden')" type="button">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high group-hover:bg-primary/20 text-primary flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-[22px]">calendar_view_month</span>
+</div>
+<div class="min-w-0">
+<span class="font-title-prayer text-[15px] font-semibold text-on-surface block truncate">ตารางรายเดือน</span>
+<span class="font-caption text-caption text-on-surface-variant">ดาวน์โหลด &amp; พิมพ์</span>
+</div>
+</button>
+<!-- 8. Prayer Stats -->
+<button class="group p-space-md rounded-xl bg-surface-card-glass hover:bg-surface-card-hover backdrop-blur-md transition-all shadow-md flex items-center gap-space-sm text-left" onclick="document.getElementById('modal-stats').classList.remove('hidden')" type="button">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high group-hover:bg-primary/20 text-primary flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-[22px]">monitoring</span>
+</div>
+<div class="min-w-0">
+<span class="font-title-prayer text-[15px] font-semibold text-on-surface block truncate">สถิติการละหมาด</span>
+<span class="font-caption text-caption text-on-surface-variant">บันทึก 7 วันล่าสุด</span>
+</div>
+</button>
+<!-- 9. Fullscreen Mosque Clock -->
+<button class="group p-space-md rounded-xl bg-surface-card-glass hover:bg-surface-card-hover backdrop-blur-md transition-all shadow-md flex items-center gap-space-sm text-left" onclick="openFullscreenClock()" type="button">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high group-hover:bg-primary/20 text-primary flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-[22px]">fullscreen</span>
+</div>
+<div class="min-w-0">
+<span class="font-title-prayer text-[15px] font-semibold text-on-surface block truncate">นาฬิกาเต็มจอ</span>
+<span class="font-caption text-caption text-on-surface-variant">โหมดหน้าจอมัสยิด</span>
+</div>
+</button>
+<!-- 10. Settings -->
+<button class="group p-space-md rounded-xl bg-surface-card-glass hover:bg-surface-card-hover backdrop-blur-md transition-all shadow-md flex items-center gap-space-sm text-left" onclick="document.getElementById('modal-settings').classList.remove('hidden')" type="button">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high group-hover:bg-primary/20 text-primary flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-[22px]">tune</span>
+</div>
+<div class="min-w-0">
+<span class="font-title-prayer text-[15px] font-semibold text-on-surface block truncate">ตั้งค่าคำนวณ</span>
+<span class="font-caption text-caption text-on-surface-variant">วิธี MWL • ปรับเวลา</span>
+</div>
+</button>
+</div>
+</div>
+<!-- INTERACTIVE QUICK TASBIH WIDGET -->
+<div class="rounded-2xl bg-surface-container-low p-space-md shadow-xl relative overflow-hidden">
+<div class="flex items-center justify-between pb-space-sm">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">circle</span>
+<h4 class="font-title-prayer text-title-prayer text-on-surface font-semibold">นับซิกรฺด่วน (Tasbih)</h4>
+</div>
+<button class="font-caption text-caption text-on-surface-variant hover:text-primary transition-colors flex items-center gap-1" onclick="resetQuickTasbih()" type="button">
+<span class="material-symbols-outlined text-[14px]">refresh</span> เริ่มใหม่
+            </button>
+</div>
+<div class="flex flex-col items-center justify-center py-4 bg-surface-container-lowest/80 rounded-xl">
+<p class="font-arabic-title text-arabic-title text-text-arabic font-bold mb-1" id="tasbih-phrase">سُبْحَانَ ٱللَّهِ</p>
+<span class="font-caption text-caption text-on-surface-variant mb-3">ซุบฮานัลลอฮ์ • มหาบริสุทธิ์ยิ่งแด่อัลลอฮ์</span>
+<button class="w-24 h-24 rounded-full bg-gradient-to-tr from-secondary-container to-surface-card-hover active:scale-95 transition-all shadow-lg flex flex-col items-center justify-center group focus:outline-none" id="btn-quick-tasbih" onclick="incrementQuickTasbih()" type="button">
+<span class="font-countdown-digits text-[34px] leading-tight text-primary font-bold" id="quick-tasbih-count">12</span>
+<span class="font-caption text-[10px] text-on-surface-variant uppercase tracking-wider group-hover:text-primary">แตะนับ</span>
+</button>
+<div class="w-48 bg-surface-container-high h-1.5 rounded-full mt-4 overflow-hidden">
+<div class="bg-primary h-full transition-all duration-300" id="quick-tasbih-bar" style="width: 36.3%;"></div>
+</div>
+<span class="font-caption text-caption text-on-surface-variant mt-2">เป้าหมาย 33 ครั้ง (รอบปัจจุบัน)</span>
+</div>
+</div>
+<!-- TODAY'S PRAYER HABIT PROGRESS & 7-DAY MINI CHART -->
+<div class="rounded-2xl bg-surface-container-low p-space-md shadow-xl">
+<div class="flex items-center justify-between pb-space-sm mb-space-sm">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">check_circle</span>
+<h4 class="font-title-prayer text-title-prayer text-on-surface font-semibold">การละหมาด 7 วันล่าสุด</h4>
+</div>
+<span class="font-label-badge text-label-badge text-primary bg-primary/10 px-2 py-0.5 rounded-full" id="prayer-completion-label">วันนี้: 2 / 5 เวลา</span>
+</div>
+<!-- 7-Day Mini Bar Chart (SVG Micro-Visualization) -->
+<div class="h-28 w-full flex items-end justify-between gap-2 pt-2 px-2 bg-surface-container-lowest/60 rounded-xl">
+<!-- Day 1 -->
+<div class="flex-1 flex flex-col items-center gap-1.5 h-full justify-end">
+<span class="font-caption text-[10px] text-on-surface-variant">5/5</span>
+<div class="w-full max-w-[28px] bg-primary rounded-t-md transition-all" style="height: 100%;"></div>
+<span class="font-caption text-[11px] text-on-surface-variant">ศ.</span>
+</div>
+<!-- Day 2 -->
+<div class="flex-1 flex flex-col items-center gap-1.5 h-full justify-end">
+<span class="font-caption text-[10px] text-on-surface-variant">4/5</span>
+<div class="w-full max-w-[28px] bg-primary/80 rounded-t-md transition-all" style="height: 80%;"></div>
+<span class="font-caption text-[11px] text-on-surface-variant">ส.</span>
+</div>
+<!-- Day 3 -->
+<div class="flex-1 flex flex-col items-center gap-1.5 h-full justify-end">
+<span class="font-caption text-[10px] text-on-surface-variant">5/5</span>
+<div class="w-full max-w-[28px] bg-primary rounded-t-md transition-all" style="height: 100%;"></div>
+<span class="font-caption text-[11px] text-on-surface-variant">อา.</span>
+</div>
+<!-- Day 4 -->
+<div class="flex-1 flex flex-col items-center gap-1.5 h-full justify-end">
+<span class="font-caption text-[10px] text-on-surface-variant">5/5</span>
+<div class="w-full max-w-[28px] bg-primary rounded-t-md transition-all" style="height: 100%;"></div>
+<span class="font-caption text-[11px] text-on-surface-variant">จ.</span>
+</div>
+<!-- Day 5 -->
+<div class="flex-1 flex flex-col items-center gap-1.5 h-full justify-end">
+<span class="font-caption text-[10px] text-on-surface-variant">3/5</span>
+<div class="w-full max-w-[28px] bg-primary/60 rounded-t-md transition-all" style="height: 60%;"></div>
+<span class="font-caption text-[11px] text-on-surface-variant">อ.</span>
+</div>
+<!-- Day 6 -->
+<div class="flex-1 flex flex-col items-center gap-1.5 h-full justify-end">
+<span class="font-caption text-[10px] text-on-surface-variant">5/5</span>
+<div class="w-full max-w-[28px] bg-primary rounded-t-md transition-all" style="height: 100%;"></div>
+<span class="font-caption text-[11px] text-on-surface-variant">พ.</span>
+</div>
+<!-- Day 7 (Today) -->
+<div class="flex-1 flex flex-col items-center gap-1.5 h-full justify-end">
+<span class="font-caption text-[10px] text-primary font-bold">2/5</span>
+<div class="w-full max-w-[28px] bg-gold-bright rounded-t-md shadow-gold-glow shadow-md transition-all" style="height: 40%;"></div>
+<span class="font-caption text-[11px] text-primary font-bold">วันนี้</span>
+</div>
+</div>
+<p class="font-caption text-caption text-on-surface-variant mt-space-sm text-center">
+            ข้อมูลเก็บในเบราว์เซอร์ของคุณเท่านั้น มีความเป็นส่วนตัว 100%
+          </p>
+</div>
+</div>
+</div>
+<!-- 3. FOOTNOTE CALCULATION DISCLOSURE (VERBATIM FROM USER DATA) -->
+<section class="mt-space-xl p-space-md rounded-xl bg-surface-container-low/40 text-center flex flex-col sm:flex-row items-center justify-between gap-space-sm text-on-surface-variant">
+<div class="flex items-center gap-2 text-left">
+<span class="material-symbols-outlined text-[20px] text-primary">info</span>
+<p class="font-body-sm text-body-sm">
+          คำนวณบนอุปกรณ์ของคุณ ใช้วิธีคำนวณที่เลือกในตั้งค่า (ค่าเริ่มต้น Muslim World League) เวลาอาจต่างจากประกาศของมัสยิดหรือสำนักจุฬาราชมนตรีเล็กน้อย โปรดตรวจสอบกับมัสยิดใกล้บ้าน
+        </p>
+</div>
+<button class="font-label-badge text-label-badge text-primary hover:text-gold-bright whitespace-nowrap px-3 py-1 rounded bg-surface-container-high transition-colors" onclick="document.getElementById('modal-settings').classList.remove('hidden')" type="button">
+        ปรับแต่งค่าคำนวณ
+      </button>
+</section>
+</div>
+<!-- ======================================================== -->
+<!-- MODALS & POP-UPS (PRESERVES ALL USER CONTENT & FUNCTIONS) -->
+<!-- ======================================================== -->
+<!-- MODAL: SETTINGS (ตั้งค่า) -->
+<div class="fixed inset-0 z-50 bg-surface-container-lowest/80 backdrop-blur-md hidden flex items-center justify-center p-space-md" id="modal-settings">
+<div class="w-full max-w-[560px] bg-surface-container rounded-2xl p-space-lg shadow-2xl flex flex-col gap-space-md max-h-[90vh] overflow-y-auto">
+<div class="flex items-center justify-between pb-space-sm">
+<h3 class="font-headline-md text-headline-md text-primary font-bold">ตั้งค่า</h3>
+<button class="w-8 h-8 rounded-full bg-surface-container-high hover:bg-surface-bright text-on-surface flex items-center justify-center" onclick="document.getElementById('modal-settings').classList.add('hidden')" type="button">
+<span class="material-symbols-outlined text-[18px]">close</span>
+</button>
+</div>
+<div class="flex flex-col gap-space-sm">
+<label class="font-title-prayer text-title-prayer text-on-surface font-semibold">วิธีคำนวณ</label>
+<select class="w-full p-space-md rounded-xl bg-surface-container-low text-on-surface focus:outline-none focus:ring-2 focus:ring-primary">
+<option selected="">Muslim World League (MWL)</option>
+<option>สำนักจุฬาราชมนตรี (ประเทศไทย)</option>
+<option>Umm Al-Qura University, Makkah</option>
+<option>Egyptian General Authority of Survey</option>
+<option>Islamic Society of North America (ISNA)</option>
+</select>
+</div>
+<div class="flex flex-col gap-space-xs">
+<label class="font-title-prayer text-title-prayer text-on-surface font-semibold">ปรับเวลา (นาที)</label>
+<p class="font-caption text-caption text-on-surface-variant">ใส่ค่าบวกหรือลบเพื่อให้ตรงกับประกาศของมัสยิดในพื้นที่ ช่วงที่ปรับได้คือ -60 ถึง 60</p>
+<div class="grid grid-cols-5 gap-2 mt-2">
+<div class="flex flex-col items-center">
+<span class="font-caption text-caption text-on-surface">ซุบฮิ</span>
+<input class="w-full text-center py-1.5 rounded-lg bg-surface-container-low text-primary font-bold" max="60" min="-60" type="number" value="0"/>
+</div>
+<div class="flex flex-col items-center">
+<span class="font-caption text-caption text-on-surface">ซุฮรี</span>
+<input class="w-full text-center py-1.5 rounded-lg bg-surface-container-low text-primary font-bold" max="60" min="-60" type="number" value="0"/>
+</div>
+<div class="flex flex-col items-center">
+<span class="font-caption text-caption text-on-surface">อัสรี</span>
+<input class="w-full text-center py-1.5 rounded-lg bg-surface-container-low text-primary font-bold" max="60" min="-60" type="number" value="0"/>
+</div>
+<div class="flex flex-col items-center">
+<span class="font-caption text-caption text-on-surface">มัฆริบ</span>
+<input class="w-full text-center py-1.5 rounded-lg bg-surface-container-low text-primary font-bold" max="60" min="-60" type="number" value="0"/>
+</div>
+<div class="flex flex-col items-center">
+<span class="font-caption text-caption text-on-surface">อีซา</span>
+<input class="w-full text-center py-1.5 rounded-lg bg-surface-container-low text-primary font-bold" max="60" min="-60" type="number" value="0"/>
+</div>
+</div>
+</div>
+<div class="flex flex-col gap-space-xs">
+<label class="font-title-prayer text-title-prayer text-on-surface font-semibold">เพิ่มเมืองของฉัน</label>
+<button class="flex items-center justify-center gap-2 p-3 rounded-xl bg-surface-container-high hover:bg-surface-bright text-primary font-label-badge text-label-badge transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">my_location</span>
+          เพิ่มเมืองดึงจากตำแหน่งฉัน
+        </button>
+</div>
+<div class="flex items-center justify-between pt-space-md">
+<button class="font-body-sm text-body-sm text-error hover:underline" onclick="alert('คืนค่าเริ่มต้นเรียบร้อย')" type="button">คืนค่าเริ่มต้น</button>
+<button class="px-space-lg py-2.5 rounded-xl bg-primary text-on-primary font-semibold hover:bg-gold-bright transition-colors" onclick="document.getElementById('modal-settings').classList.add('hidden')" type="button">
+          บันทึกการตั้งค่า
+        </button>
+</div>
+</div>
+</div>
+<!-- MODAL: POST-PRAYER DHIKR (ซิกรฺหลังละหมาด) -->
+<div class="fixed inset-0 z-50 bg-surface-container-lowest/80 backdrop-blur-md hidden flex items-center justify-center p-space-md" id="modal-post-dhikr">
+<div class="w-full max-w-[520px] bg-surface-container rounded-2xl p-space-lg shadow-2xl flex flex-col items-center text-center">
+<div class="w-full flex items-center justify-between pb-space-sm mb-space-md">
+<h3 class="font-headline-md text-headline-md text-primary font-bold">ซิกรฺหลังละหมาด</h3>
+<button class="w-8 h-8 rounded-full bg-surface-container-high text-on-surface flex items-center justify-center" onclick="document.getElementById('modal-post-dhikr').classList.add('hidden')" type="button">
+<span class="material-symbols-outlined text-[18px]">close</span>
+</button>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-low w-full mb-space-md">
+<span class="font-headline-md text-headline-md text-on-surface font-bold" id="post-dhikr-title">ขอลุแก่โทษ (อิสติฆฟาร)</span>
+<div class="my-4">
+<p class="font-arabic-title text-[28px] text-primary font-semibold leading-relaxed" id="post-dhikr-arabic">أَسْتَغْفِرُ ٱللَّهَ</p>
+<span class="font-body-md text-body-md text-on-surface-variant block mt-1" id="post-dhikr-thai">อัสตัฆฟิรุลลอฮ์ (ข้าพเจ้าขออภัยโทษต่ออัลลอฮ์)</span>
+</div>
+<p class="font-caption text-caption text-secondary">ตามซุนนะฮฺ: ขอลุแก่โทษ 3 ครั้ง แล้วตัสบีหฺ 33 ตะหฺมีด 33 และตักบีร 34 ครั้ง</p>
+</div>
+<!-- Giant Interactive Counter Disc -->
+<button class="w-36 h-36 rounded-full bg-surface-container-high hover:bg-secondary-container text-primary flex flex-col items-center justify-center shadow-2xl active:scale-95 transition-all my-2" id="btn-post-counter" onclick="incrementPostDhikr()" type="button">
+<span class="font-countdown-digits text-[48px] leading-none text-primary font-bold" id="post-dhikr-count">0</span>
+<span class="font-caption text-caption text-on-surface-variant uppercase mt-1" id="post-dhikr-target">เป้าหมาย: 3</span>
+</button>
+<p class="font-caption text-caption text-on-surface-variant mt-2">แตะวงกลมเพื่อนับ เมื่อครบจะเลื่อนไปคำถัดไปเอง มือถือที่รองรับจะสั่นเบาๆ ทุกครั้งที่นับ</p>
+<div class="flex items-center gap-space-md mt-space-md w-full justify-center">
+<button class="px-space-md py-2 rounded-xl bg-surface-container-high hover:bg-surface-bright text-on-surface font-body-sm text-body-sm flex items-center gap-1" onclick="undoPostDhikr()" type="button">
+<span class="material-symbols-outlined text-[16px]">undo</span> ย้อนกลับ 1 ครั้ง
+        </button>
+<button class="px-space-md py-2 rounded-xl bg-surface-container-high hover:bg-surface-bright text-on-surface font-body-sm text-body-sm flex items-center gap-1" onclick="resetPostDhikr()" type="button">
+<span class="material-symbols-outlined text-[16px]">refresh</span> เริ่มใหม่
+        </button>
+</div>
+</div>
+</div>
+<!-- MODAL: PROPHETIC SUNNAH (ซุนนะฮฺของท่านนบี) -->
+<div class="fixed inset-0 z-50 bg-surface-container-lowest/80 backdrop-blur-md hidden flex items-center justify-center p-space-md" id="modal-sunnah">
+<div class="w-full max-w-[680px] bg-surface-container rounded-2xl p-space-lg shadow-2xl flex flex-col gap-space-md max-h-[85vh] overflow-y-auto">
+<div class="flex items-center justify-between pb-space-sm">
+<h3 class="font-headline-md text-headline-md text-primary font-bold">ซุนนะฮฺของท่านนบี</h3>
+<button class="w-8 h-8 rounded-full bg-surface-container-high text-on-surface flex items-center justify-center" onclick="document.getElementById('modal-sunnah').classList.add('hidden')" type="button">
+<span class="material-symbols-outlined text-[18px]">close</span>
+</button>
+</div>
+<div class="space-y-space-md text-left">
+<div>
+<h4 class="font-title-prayer text-title-prayer text-secondary font-bold mb-2">ละหมาดสุนนะฮฺอื่นๆ</h4>
+<ul class="space-y-2 text-on-surface font-body-sm text-body-sm">
+<li class="p-3 rounded-lg bg-surface-container-low"><strong class="text-primary">วิฏรฺ:</strong> ทำหลังละหมาดอีซาจนถึงก่อนเข้าเวลาซุบฮิ จำนวนรอกาอัตเป็นเลขคี่ (1, 3, 5 รอกาอัต)</li>
+<li class="p-3 rounded-lg bg-surface-container-low"><strong class="text-primary">ฎุหา:</strong> อย่างน้อย 2 รอกาอัต ทำหลังดวงอาทิตย์ขึ้นสูงพอสมควรจนก่อนเข้าเวลาซุฮรีเล็กน้อย</li>
+<li class="p-3 rounded-lg bg-surface-container-low"><strong class="text-primary">ตะฮัจญุด:</strong> ละหมาดยามค่ำคืนหลังตื่นนอน โดยเฉพาะช่วงท้ายคืน เป็นช่วงที่ดุอาอ์ได้รับการตอบรับ</li>
+</ul>
+</div>
+<div>
+<h4 class="font-title-prayer text-title-prayer text-secondary font-bold mb-2">ซิกรฺหลังละหมาดฟัรฎู</h4>
+<div class="p-4 rounded-xl bg-surface-container-low space-y-2">
+<p class="font-body-md text-body-md text-on-surface">ขอลุแก่โทษ 3 ครั้ง: <span class="font-arabic-title text-arabic-title text-primary">أَسْتَغْفِرُ ٱللَّهَ</span></p>
+<p class="font-body-md text-body-md text-on-surface">กล่าวตัสบีหฺ 33 ครั้ง: <span class="font-arabic-title text-arabic-title text-primary">سُبْحَانَ ٱللَّهِ</span></p>
+<p class="font-body-md text-body-md text-on-surface">ตะหฺมีด 33 ครั้ง: <span class="font-arabic-title text-arabic-title text-primary">ٱلْحَمْدُ لِلَّهِ</span></p>
+<p class="font-body-md text-body-md text-on-surface">ตักบีร 34 ครั้ง: <span class="font-arabic-title text-arabic-title text-primary">ٱللَّهُ أَكْبَرُ</span></p>
+<p class="font-caption text-caption text-secondary">และอ่านอายะตุลกุรสีย์หลังละหมาดฟัรฎูทุกเวลา</p>
+</div>
+</div>
+<div>
+<h4 class="font-title-prayer text-title-prayer text-secondary font-bold mb-2">ซุนนะฮฺประจำวัน</h4>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-2 font-body-sm text-body-sm">
+<div class="p-3 rounded-lg bg-surface-container-low text-on-surface">ใช้ไม้ซิวากแปรงฟันก่อนละหมาดและเมื่อตื่นนอน</div>
+<div class="p-3 rounded-lg bg-surface-container-low text-on-surface">กล่าวบิสมิลลาฮฺก่อนกินและกินด้วยมือขวา <span class="text-primary font-arabic-title">بِسْمِ ٱللَّهِ</span></div>
+<div class="p-3 rounded-lg bg-surface-container-low text-on-surface">ให้สลามและตอบสลาม <span class="text-primary font-arabic-title">ٱلسَّلَامُ عَلَيْكُمْ</span></div>
+<div class="p-3 rounded-lg bg-surface-container-low text-on-surface">นอนตะแคงขวา และทำซิกรฺเช้า-เย็นอย่างสม่ำเสมอ</div>
+<div class="p-3 rounded-lg bg-surface-container-low text-on-surface col-span-1 sm:col-span-2">ยิ้มให้พี่น้อง เป็นการทำทาน (เศาะดะเกาะฮฺ) อย่างหนึ่ง</div>
+</div>
+</div>
+<p class="font-caption text-caption text-on-surface-variant">
+          สรุปจากตำราหะดีษหลัก เช่น บุคอรี มุสลิม อบูดาวูด ติรมิซี ประเด็นที่มัซฮับต่างกันระบุไว้แล้ว ควรปรึกษาผู้รู้เพื่อรายละเอียด วันตามปฏิทินฮิจเราะห์ที่คำนวณอาจต่างจากประกาศจริง 1 วัน
+        </p>
+</div>
+</div>
+</div>
+<!-- MODAL: QIBLA COMPASS (เข็มทิศกิบลัต) -->
+<div class="fixed inset-0 z-50 bg-surface-container-lowest/80 backdrop-blur-md hidden flex items-center justify-center p-space-md" id="modal-qibla">
+<div class="w-full max-w-[480px] bg-surface-container rounded-2xl p-space-lg shadow-2xl flex flex-col items-center text-center">
+<div class="w-full flex items-center justify-between pb-space-sm mb-space-sm">
+<h3 class="font-headline-md text-headline-md text-primary font-bold">เข็มทิศกิบลัต</h3>
+<button class="w-8 h-8 rounded-full bg-surface-container-high text-on-surface flex items-center justify-center" onclick="document.getElementById('modal-qibla').classList.add('hidden')" type="button">
+<span class="material-symbols-outlined text-[18px]">close</span>
+</button>
+</div>
+<!-- Compass Visual Dial -->
+<div class="relative w-64 h-64 rounded-full bg-surface-container-lowest shadow-2xl flex items-center justify-center my-4">
+<!-- Degree labels -->
+<span class="absolute top-3 font-headline-sm font-bold text-primary">N</span>
+<span class="absolute bottom-3 font-headline-sm font-bold text-on-surface-variant">S</span>
+<span class="absolute right-3 font-headline-sm font-bold text-on-surface-variant">E</span>
+<span class="absolute left-3 font-headline-sm font-bold text-on-surface-variant">W</span>
+<!-- Compass Dial Ticks Ring -->
+<div class="w-48 h-48 rounded-full border-2 border-dashed border-secondary/20 flex items-center justify-center">
+<!-- Qibla Needle Pointing 285° (Kaaba Direction from Bangkok) -->
+<div class="relative w-full h-full flex items-center justify-center" style="transform: rotate(285deg);">
+<div class="w-1.5 h-24 bg-gradient-to-t from-transparent via-primary to-primary rounded-full relative">
+<span class="material-symbols-outlined text-primary text-[28px] absolute -top-4 -left-3" style="font-variation-settings: 'FILL' 1;">mosque</span>
+</div>
+</div>
+</div>
+<div class="absolute w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bold text-caption">
+          285°
+        </div>
+</div>
+<button class="px-space-md py-2 rounded-xl bg-primary text-on-primary font-label-badge text-label-badge mb-2" type="button">
+        เปิดใช้เซนเซอร์ทิศ
+      </button>
+<p class="font-caption text-caption text-on-surface-variant text-left leading-relaxed">
+        กะอฺบะฮฺอยู่ที่ 21.4225°N, 39.8262°E ทิศคำนวณจากตำแหน่งที่เลือกไว้ ควรวางโทรศัพท์ให้ราบและอยู่ห่างจากโลหะหรือแม่เหล็ก เซนเซอร์บางเครื่องคลาดเคลื่อนได้ ควรตรวจสอบกับมัสยิดหรือเข็มทิศจริงด้วย
+      </p>
+</div>
+</div>
+<!-- MODAL: HIJRI CALENDAR (ปฏิทินฮิจเราะห์) -->
+<div class="fixed inset-0 z-50 bg-surface-container-lowest/80 backdrop-blur-md hidden flex items-center justify-center p-space-md" id="modal-hijri">
+<div class="w-full max-w-[560px] bg-surface-container rounded-2xl p-space-lg shadow-2xl flex flex-col gap-space-md">
+<div class="flex items-center justify-between pb-space-sm">
+<div>
+<h3 class="font-headline-md text-headline-md text-primary font-bold">ปฏิทินฮิจเราะห์</h3>
+<span class="font-body-sm text-body-sm text-on-surface-variant">รอบีอุษษานี 1446 • Rabi' al-Thani 1446</span>
+</div>
+<button class="w-8 h-8 rounded-full bg-surface-container-high text-on-surface flex items-center justify-center" onclick="document.getElementById('modal-hijri').classList.add('hidden')" type="button">
+<span class="material-symbols-outlined text-[18px]">close</span>
+</button>
+</div>
+<div class="flex items-center justify-between px-2">
+<button class="w-8 h-8 rounded bg-surface-container-high text-on-surface flex items-center justify-center" type="button">‹</button>
+<span class="font-title-prayer text-title-prayer text-on-surface font-semibold">ตุลาคม 2567 / รอบีอุษษานี 1446</span>
+<button class="w-8 h-8 rounded bg-surface-container-high text-on-surface flex items-center justify-center" type="button">›</button>
+</div>
+<!-- Mini Calendar Grid -->
+<div class="grid grid-cols-7 gap-1 text-center font-caption text-caption">
+<span class="text-on-surface-variant py-1">อา</span>
+<span class="text-on-surface-variant py-1">จ</span>
+<span class="text-on-surface-variant py-1">อ</span>
+<span class="text-on-surface-variant py-1">พ</span>
+<span class="text-on-surface-variant py-1">พฤ</span>
+<span class="text-primary font-bold py-1">ศ</span>
+<span class="text-on-surface-variant py-1">ส</span>
+<!-- Sample dates with White Days marked -->
+<div class="p-2 rounded bg-surface-container-low opacity-40">29</div>
+<div class="p-2 rounded bg-surface-container-low opacity-40">30</div>
+<div class="p-2 rounded bg-surface-container-low">1</div>
+<div class="p-2 rounded bg-surface-container-low">2</div>
+<div class="p-2 rounded bg-surface-container-low">3</div>
+<div class="p-2 rounded bg-secondary-container/40 text-secondary">4 (ศุกร์)</div>
+<div class="p-2 rounded bg-surface-container-low">5</div>
+<div class="p-2 rounded bg-surface-container-low">6</div>
+<div class="p-2 rounded bg-surface-container-low">7</div>
+<div class="p-2 rounded bg-surface-container-low">8</div>
+<div class="p-2 rounded bg-surface-container-low">9</div>
+<div class="p-2 rounded bg-surface-container-low">10</div>
+<div class="p-2 rounded bg-secondary-container/40 text-secondary">11</div>
+<div class="p-2 rounded bg-surface-container-low">12</div>
+<!-- White Days (13, 14, 15) with dots -->
+<div class="p-2 rounded bg-surface-container-high text-primary relative">13 <span class="w-1.5 h-1.5 rounded-full bg-primary absolute top-1 right-1" title="วันขาว 13"></span></div>
+<div class="p-2 rounded bg-surface-container-high text-primary relative">14 <span class="w-1.5 h-1.5 rounded-full bg-primary absolute top-1 right-1" title="วันขาว 14"></span></div>
+<div class="p-2 rounded bg-surface-container-high text-primary relative">15 <span class="w-1.5 h-1.5 rounded-full bg-primary absolute top-1 right-1" title="วันขาว 15"></span></div>
+<div class="p-2 rounded bg-surface-container-low">16</div>
+<div class="p-2 rounded bg-surface-container-low">17</div>
+<div class="p-2 rounded bg-secondary-container/40 text-secondary">18</div>
+<div class="p-2 rounded bg-surface-container-low">19</div>
+<div class="p-2 rounded bg-surface-container-low">20</div>
+<div class="p-2 rounded bg-surface-container-low">21</div>
+<div class="p-2 rounded bg-surface-container-low">22</div>
+<div class="p-2 rounded bg-surface-container-low">23</div>
+<div class="p-2 rounded bg-primary text-on-primary font-bold">24 (วันนี้)</div>
+<div class="p-2 rounded bg-secondary-container/40 text-secondary">25</div>
+<div class="p-2 rounded bg-surface-container-low">26</div>
+</div>
+<p class="font-caption text-caption text-on-surface-variant">
+        จุดที่มุมคือวันขาว (13-15) วันที่ในช่องเล็กคือวันที่สากล คำนวณตามปฏิทินอุมมุลกุรอ อาจต่างจากประกาศจริง 1 วัน
+      </p>
+</div>
+</div>
+<!-- MODAL: MONTHLY TIMETABLE (ตารางรายเดือน) -->
+<div class="fixed inset-0 z-50 bg-surface-container-lowest/80 backdrop-blur-md hidden flex items-center justify-center p-space-md" id="modal-monthly">
+<div class="w-full max-w-[760px] bg-surface-container rounded-2xl p-space-lg shadow-2xl flex flex-col gap-space-md max-h-[85vh] overflow-y-auto">
+<div class="flex items-center justify-between pb-space-sm">
+<div>
+<h3 class="font-headline-md text-headline-md text-primary font-bold">ตารางรายเดือน</h3>
+<span class="font-body-sm text-body-sm text-on-surface-variant">ตุลาคม 2567 • กรุงเทพมหานคร</span>
+</div>
+<button class="w-8 h-8 rounded-full bg-surface-container-high text-on-surface flex items-center justify-center" onclick="document.getElementById('modal-monthly').classList.add('hidden')" type="button">
+<span class="material-symbols-outlined text-[18px]">close</span>
+</button>
+</div>
+<div class="flex items-center justify-between">
+<button class="px-3 py-1.5 rounded-lg bg-surface-container-high text-on-surface font-body-sm" type="button">‹ เดือนก่อน</button>
+<span class="font-title-prayer text-on-surface font-semibold">ตุลาคม 2567</span>
+<button class="px-3 py-1.5 rounded-lg bg-surface-container-high text-on-surface font-body-sm" type="button">เดือนถัดไป ›</button>
+</div>
+<div class="overflow-x-auto">
+<table class="w-full text-center font-caption text-caption">
+<thead>
+<tr class="bg-surface-container-high text-on-surface-variant">
+<th class="py-2 px-2">วันที่</th>
+<th class="py-2 px-2">ฮิจเราะห์</th>
+<th class="py-2 px-2 text-primary">ซุบฮิ</th>
+<th class="py-2 px-2">ชุรูก</th>
+<th class="py-2 px-2 text-primary">ซุฮรี</th>
+<th class="py-2 px-2 text-primary">อัสรี</th>
+<th class="py-2 px-2 text-primary">มัฆริบ</th>
+<th class="py-2 px-2 text-primary">อีซา</th>
+</tr>
+</thead>
+<tbody class="text-on-surface divide-y divide-surface-variant/20">
+<tr class="hover:bg-surface-container-high/40">
+<td class="py-2">23 ต.ค.</td>
+<td>20</td>
+<td>05:02</td>
+<td>06:14</td>
+<td>12:12</td>
+<td>15:28</td>
+<td>18:09</td>
+<td>19:15</td>
+</tr>
+<tr class="bg-primary/10 font-bold text-primary">
+<td class="py-2">24 ต.ค. (วันนี้)</td>
+<td>21</td>
+<td>05:02</td>
+<td>06:15</td>
+<td>12:12</td>
+<td>15:28</td>
+<td>18:08</td>
+<td>19:15</td>
+</tr>
+<tr class="hover:bg-surface-container-high/40">
+<td class="py-2">25 ต.ค.</td>
+<td>22</td>
+<td>05:03</td>
+<td>06:15</td>
+<td>12:12</td>
+<td>15:29</td>
+<td>18:08</td>
+<td>19:14</td>
+</tr>
+<tr class="hover:bg-surface-container-high/40">
+<td class="py-2">26 ต.ค.</td>
+<td>23</td>
+<td>05:03</td>
+<td>06:15</td>
+<td>12:12</td>
+<td>15:29</td>
+<td>18:07</td>
+<td>19:14</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="font-caption text-caption text-on-surface-variant">
+        คำนวณตามเมืองและวิธีที่เลือกไว้ในตั้งค่า รวมค่าปรับเวลาด้วย
+      </p>
+</div>
+</div>
+<!-- MODAL: FREE TASBIH (นับซิกรฺอิสระ) -->
+<div class="fixed inset-0 z-50 bg-surface-container-lowest/80 backdrop-blur-md hidden flex items-center justify-center p-space-md" id="modal-tasbih">
+<div class="w-full max-w-[440px] bg-surface-container rounded-2xl p-space-lg shadow-2xl flex flex-col items-center text-center">
+<div class="w-full flex items-center justify-between pb-space-sm mb-space-md">
+<h3 class="font-headline-md text-headline-md text-primary font-bold">นับซิกรฺอิสระ</h3>
+<button class="w-8 h-8 rounded-full bg-surface-container-high text-on-surface flex items-center justify-center" onclick="document.getElementById('modal-tasbih').classList.add('hidden')" type="button">
+<span class="material-symbols-outlined text-[18px]">close</span>
+</button>
+</div>
+<div class="w-48 h-48 rounded-full bg-surface-container-low flex flex-col items-center justify-center cursor-pointer shadow-inner active:scale-95 transition-transform" onclick="incrementFreeTasbih()">
+<span class="font-countdown-digits text-[64px] leading-none text-primary font-bold" id="free-tasbih-count">0</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-2">แตะเพื่อนับ</span>
+</div>
+<div class="flex items-center gap-space-md mt-space-lg">
+<button class="px-space-md py-2 rounded-xl bg-surface-container-high text-on-surface font-body-sm" onclick="setTasbihTarget()" type="button">
+          เป้าหมาย
+        </button>
+<button class="px-space-md py-2 rounded-xl bg-surface-container-high text-on-surface font-body-sm" onclick="resetFreeTasbih()" type="button">
+          เริ่มใหม่
+        </button>
+</div>
+<p class="font-caption text-caption text-on-surface-variant mt-space-md">
+        ยอดรวมวันนี้จะถูกเก็บไว้ในเบราว์เซอร์ และเริ่มนับใหม่เมื่อขึ้นวันใหม่
+      </p>
+</div>
+</div>
+<!-- MODAL: QURAN PREVIEW (อ่านอัลกุรอาน) -->
+<div class="fixed inset-0 z-50 bg-surface-container-lowest/80 backdrop-blur-md hidden flex items-center justify-center p-space-md" id="modal-quran">
+<div class="w-full max-w-[720px] bg-surface-container rounded-2xl p-space-lg shadow-2xl flex flex-col gap-space-md max-h-[85vh] overflow-y-auto">
+<div class="flex items-center justify-between pb-space-sm">
+<div>
+<h3 class="font-headline-md text-headline-md text-primary font-bold">อ่านอัลกุรอาน</h3>
+<span class="font-body-sm text-body-sm text-on-surface-variant">ซูเราะฮ์ อัลฟาติหะฮ์ (Al-Fatihah)</span>
+</div>
+<button class="w-8 h-8 rounded-full bg-surface-container-high text-on-surface flex items-center justify-center" onclick="document.getElementById('modal-quran').classList.add('hidden')" type="button">
+<span class="material-symbols-outlined text-[18px]">close</span>
+</button>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-low text-right space-y-4">
+<div class="border-b border-surface-variant/30 pb-3">
+<p class="font-arabic-title text-[24px] text-primary">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ﴿١﴾</p>
+<p class="text-left font-body-sm text-body-sm text-on-surface mt-1">1. ด้วยพระนามของอัลลอฮ์ ผู้ทรงกรุณาปรานี ผู้ทรงเมตตาเสมอ</p>
+</div>
+<div class="border-b border-surface-variant/30 pb-3">
+<p class="font-arabic-title text-[24px] text-primary">ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ ﴿٢﴾</p>
+<p class="text-left font-body-sm text-body-sm text-on-surface mt-1">2. มวลการสรรเสริญเป็นสิทธิของอัลลอฮ์ พระผู้อภิบาลแห่งสากลจักรวาล</p>
+</div>
+<div class="border-b border-surface-variant/30 pb-3">
+<p class="font-arabic-title text-[24px] text-primary">ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ﴿٣﴾</p>
+<p class="text-left font-body-sm text-body-sm text-on-surface mt-1">3. ผู้ทรงกรุณาปรานี ผู้ทรงเมตตาเสมอ</p>
+</div>
+</div>
+<p class="font-caption text-caption text-on-surface-variant">
+        ตัวบทอาหรับและคำแปลไทยนี้เป็นความหมายโดยสังเขป มิใช่คำแปลอย่างเป็นทางการ โปรดตรวจทานกับมุศหัฟและอัลกุรอานแปลไทยฉบับที่เชื่อถือได้ก่อนนำไปใช้ยึดถือ หากพบข้อผิดพลาด แจ้งให้ผมแก้ได้ทันที
+      </p>
+</div>
+</div>
+<!-- MODAL: STATS DETAIL (สถิติการละหมาด) -->
+<div class="fixed inset-0 z-50 bg-surface-container-lowest/80 backdrop-blur-md hidden flex items-center justify-center p-space-md" id="modal-stats">
+<div class="w-full max-w-[520px] bg-surface-container rounded-2xl p-space-lg shadow-2xl flex flex-col gap-space-md">
+<div class="flex items-center justify-between pb-space-sm">
+<h3 class="font-headline-md text-headline-md text-primary font-bold">สถิติการละหมาด</h3>
+<button class="w-8 h-8 rounded-full bg-surface-container-high text-on-surface flex items-center justify-center" onclick="document.getElementById('modal-stats').classList.add('hidden')" type="button">
+<span class="material-symbols-outlined text-[18px]">close</span>
+</button>
+</div>
+<div>
+<h4 class="font-title-prayer text-title-prayer text-on-surface font-semibold mb-2">วันนี้</h4>
+<div class="p-space-md rounded-xl bg-surface-container-low flex items-center justify-between">
+<span class="font-body-md text-body-md text-on-surface">ละหมาดครบแล้ว</span>
+<span class="font-title-prayer text-title-prayer text-primary font-bold" id="stats-today-count">2 / 5 เวลา</span>
+</div>
+</div>
+<div>
+<h4 class="font-title-prayer text-title-prayer text-on-surface font-semibold mb-2">7 วันล่าสุด (จำนวนเวลาที่ละหมาด)</h4>
+<div class="p-space-md rounded-xl bg-surface-container-low text-body-sm text-on-surface space-y-1.5">
+<div class="flex justify-between"><span>พฤหัสบดี (วันนี้)</span><span class="text-primary font-bold">2 เวลา</span></div>
+<div class="flex justify-between"><span>พุธ</span><span>5 เวลา (ครบ)</span></div>
+<div class="flex justify-between"><span>อังคาร</span><span>3 เวลา</span></div>
+<div class="flex justify-between"><span>จันทร์</span><span>5 เวลา (ครบ)</span></div>
+<div class="flex justify-between"><span>อาทิตย์</span><span>5 เวลา (ครบ)</span></div>
+<div class="flex justify-between"><span>เสาร์</span><span>4 เวลา</span></div>
+<div class="flex justify-between"><span>ศุกร์</span><span>5 เวลา (ครบ)</span></div>
+</div>
+</div>
+<p class="font-caption text-caption text-on-surface-variant">
+        ติ๊กวงกลมหน้าแต่ละเวลาในหน้าหลักเพื่อบันทึก ข้อมูลเก็บในเบราว์เซอร์ของคุณเท่านั้น หากล้างข้อมูลเบราว์เซอร์ ข้อมูลจะหาย
+      </p>
+</div>
+</div>
+<!-- FULLSCREEN CLOCK OVERLAY (นาฬิกาเต็มจอ) -->
+<div class="fixed inset-0 z-[100] bg-surface flex-col items-center justify-center p-space-xl hidden" id="fullscreen-clock-view">
+<button class="absolute top-8 right-8 px-4 py-2 rounded-xl bg-surface-container-high hover:bg-surface-bright text-on-surface flex items-center gap-2" onclick="closeFullscreenClock()" type="button">
+<span class="material-symbols-outlined text-[20px]">fullscreen_exit</span>
+<span class="font-label-badge text-label-badge">ปิด</span>
+</button>
+<div class="text-center">
+<span class="font-title-prayer text-title-prayer text-primary tracking-widest uppercase">กรุงเทพมหานคร • มัสยิดโหมด</span>
+<h1 class="font-countdown-digits text-[110px] md:text-[140px] leading-none text-primary font-bold my-6 tracking-tight" id="fs-clock-digits">14:42:08</h1>
+<p class="font-headline-sm text-headline-sm text-on-surface">ละหมาดถัดไป: อัสรี 15:28 น. (อีกประมาณ 45 นาที)</p>
+</div>
+</div>
+</div>
+<!-- Inline JavaScript for Reactive Micro-Interactions & Verbatim State Handling -->
+<script>
+  // 1. Live Clock updating every second
+  function updateLiveClock() {
+    const now = new Date();
+    const h = String(now.getHours()).padStart(2, '0');
+    const m = String(now.getMinutes()).padStart(2, '0');
+    const s = String(now.getSeconds()).padStart(2, '0');
+    const timeStr = `${h}:${m}:${s}`;
+    
+    const liveElem = document.getElementById('live-clock');
+    if (liveElem) liveElem.innerText = timeStr;
+
+    const fsElem = document.getElementById('fs-clock-digits');
+    if (fsElem) fsElem.innerText = timeStr;
+  }
+  setInterval(updateLiveClock, 1000);
+  updateLiveClock();
+
+  // 2. Interactive Prayer Check Toggle
+  let checkedCount = 2; // initial (ซุบฮิ & ซุฮรี)
+  function togglePrayerCheck(btn, prayerName) {
+    const icon = btn.querySelector('.prayer-check-icon');
+    const isChecked = btn.classList.contains('bg-primary');
+
+    if (isChecked) {
+      btn.classList.remove('bg-primary', 'text-on-primary');
+      btn.classList.add('bg-surface-container-high', 'text-transparent');
+      checkedCount = Math.max(0, checkedCount - 1);
+    } else {
+      btn.classList.add('bg-primary', 'text-on-primary');
+      btn.classList.remove('bg-surface-container-high', 'text-transparent');
+      checkedCount = Math.min(5, checkedCount + 1);
+    }
+
+    // update badge
+    const label = document.getElementById('prayer-completion-label');
+    if (label) label.innerText = `วันนี้: ${checkedCount} / 5 เวลา`;
+    const statToday = document.getElementById('stats-today-count');
+    if (statToday) statToday.innerText = `${checkedCount} / 5 เวลา`;
+  }
+
+  // 3. Quick Widget Tasbih
+  let quickCount = 12;
+  const quickTarget = 33;
+  function incrementQuickTasbih() {
+    quickCount++;
+    if (quickCount > quickTarget) quickCount = 1;
+    document.getElementById('quick-tasbih-count').innerText = quickCount;
+    const pct = (quickCount / quickTarget) * 100;
+    document.getElementById('quick-tasbih-bar').style.width = pct + '%';
+  }
+  function resetQuickTasbih() {
+    quickCount = 0;
+    document.getElementById('quick-tasbih-count').innerText = quickCount;
+    document.getElementById('quick-tasbih-bar').style.width = '0%';
+  }
+
+  // 4. Free Tasbih Modal Logic
+  let freeCount = 0;
+  function incrementFreeTasbih() {
+    freeCount++;
+    document.getElementById('free-tasbih-count').innerText = freeCount;
+  }
+  function resetFreeTasbih() {
+    freeCount = 0;
+    document.getElementById('free-tasbih-count').innerText = 0;
+  }
+  function setTasbihTarget() {
+    const val = prompt('ใส่เป้าหมายการนับซิกรฺ (ค่าปัจจุบัน 33/100):', '33');
+    if (val) alert('ตั้งเป้าหมาย ' + val + ' ครั้งเรียบร้อย');
+  }
+
+  // 5. Post-Prayer Dhikr Routine (3 -> 33 -> 33 -> 34)
+  const dhikrSteps = [
+    { title: 'ขอลุแก่โทษ (อิสติฆฟาร)', arabic: 'أَسْتَغْفِرُ ٱللَّهَ', thai: 'อัสตัฆฟิรุลลอฮ์ (ข้าพเจ้าขออภัยโทษต่ออัลลอฮ์)', target: 3 },
+    { title: 'ตัสบีหฺ (Tasbih)', arabic: 'سُبْحَانَ ٱللَّهِ', thai: 'ซุบฮานัลลอฮ์ (มหาบริสุทธิ์ยิ่งแด่อัลลอฮ์)', target: 33 },
+    { title: 'ตะหฺมีด (Tahmid)', arabic: 'ٱلْحَمْدُ لِلَّهِ', thai: 'อัลฮัมดุลิลลาฮ์ (มวลการสรรเสริญเป็นสิทธิของอัลลอฮ์)', target: 33 },
+    { title: 'ตักบีร (Takbir)', arabic: 'ٱللَّهُ أَكْبَرُ', thai: 'อัลลอฮุอักบัร (อัลลอฮ์ทรงเกรียงไกรที่สุด)', target: 34 }
+  ];
+  let currentStepIdx = 0;
+  let currentStepCount = 0;
+
+  function updatePostDhikrUI() {
+    const step = dhikrSteps[currentStepIdx];
+    document.getElementById('post-dhikr-title').innerText = step.title;
+    document.getElementById('post-dhikr-arabic').innerText = step.arabic;
+    document.getElementById('post-dhikr-thai').innerText = step.thai;
+    document.getElementById('post-dhikr-count').innerText = currentStepCount;
+    document.getElementById('post-dhikr-target').innerText = `เป้าหมาย: ${step.target}`;
+  }
+
+  function incrementPostDhikr() {
+    currentStepCount++;
+    const step = dhikrSteps[currentStepIdx];
+    if (currentStepCount >= step.target) {
+      if (currentStepIdx < dhikrSteps.length - 1) {
+        currentStepIdx++;
+        currentStepCount = 0;
+      } else {
+        alert('มาชาอัลลอฮ์ คุณทำการซิกรฺหลังละหมาดครบถ้วนแล้ว!');
+        currentStepIdx = 0;
+        currentStepCount = 0;
+      }
+    }
+    updatePostDhikrUI();
+  }
+
+  function undoPostDhikr() {
+    if (currentStepCount > 0) {
+      currentStepCount--;
+      updatePostDhikrUI();
+    }
+  }
+
+  function resetPostDhikr() {
+    currentStepIdx = 0;
+    currentStepCount = 0;
+    updatePostDhikrUI();
+  }
+
+  // 6. Fullscreen Clock Toggle
+  function openFullscreenClock() {
+    document.getElementById('fullscreen-clock-view').classList.remove('hidden');
+    document.getElementById('fullscreen-clock-view').classList.add('flex');
+  }
+  function closeFullscreenClock() {
+    document.getElementById('fullscreen-clock-view').classList.add('hidden');
+    document.getElementById('fullscreen-clock-view').classList.remove('flex');
+  }
+
+  // 7. Notification Sound Toggle Feedback
+  document.getElementById('btn-sound-toggle').addEventListener('click', function() {
+    const isMuted = this.classList.contains('text-primary');
+    if (isMuted) {
+      this.classList.remove('text-primary');
+      alert('ปิดเสียงแจ้งเตือนอาซาน');
+    } else {
+      this.classList.add('text-primary');
+      alert('เปิดเสียงเตือนอาซานอัตโนมัติแล้ว');
+    }
+  });
+</script></main><footer class="w-full bg-surface-container-lowest shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="w-full max-w-[1440px] mx-auto px-gutter lg:px-margin py-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md"><div class="flex flex-col sm:flex-row items-center gap-space-xs sm:gap-space-md text-center sm:text-left"><div class="flex items-center gap-1.5 text-primary"><span class="material-symbols-outlined text-[18px]">verified</span><span class="font-label-badge text-label-badge">วิธีคำนวณ</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">คำนวณตามวิธี Muslim World League • ตรวจสอบกับมัสยิดใกล้บ้านเพื่อความแม่นยำสูงสุด</p></div><div class="flex items-center gap-space-lg"><a class="font-caption text-caption text-on-surface-variant hover:text-primary transition-colors" data-path="settings" href="#">ปรับแต่งมุมคำนวณ</a><span class="text-on-surface-variant/40 font-caption text-caption">•</span><span class="font-caption text-caption text-on-surface-variant">© เวลาละหมาด &amp; รอมฎอน ฮ.ศ. 1445-1446</span></div></div></footer></body></html>
